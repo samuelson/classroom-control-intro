@@ -37,8 +37,8 @@ node default {
 #    db_user     => 'roland',
 #    db_password => '12345',
 #    nodes       => {
-#      Node['database.master.puppetlabs.vm']  => Lamp::Mysql['app1'],
-#      Node['webserver.master.puppetlabs.vm'] => Lamp::Webapp['app1'],
+#      Node['student1.puppetlabs.vm']  => Lamp::Mysql['app1'],
+#      Node['student2.master.puppetlabs.vm'] => Lamp::Webapp['app1'],
 #    }
 #  }
 #}
