@@ -1,2 +1,7 @@
 mod 'terrimonster-yumgroup'
 mod 'stahnma-epel'
+mod 'puppet-staging'
+mod 'puppetlabs-apache'
+mod 'puppetlabs-mysql'
+mod 'puppetlabs-concat'
+mod 'puppetlabs-stdlib'
