@@ -31,10 +31,6 @@ node default {
   notify { "Hello, my name is ${::hostname}": }
 }
 
-node 'master.puppetlabs.vm' {
-  include app_orch_demo
-}
-
 # App Orchestrator Demo
 #site { 
 #  lamp { 'app1':
